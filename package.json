@@ -1,0 +1,42 @@
+{
+  "name": "styled-modern-css-reset",
+  "description": "modern-css-reset for Styled Components",
+  "version": "1.0.0",
+  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node generate.js && npm run clean && babel src/ -d dist/",
+    "clean": "rm -rf dist && mkdir -p dist",
+    "preversion": "npm run build"
+  },
+  "homepage": "https://github.com/tiaanduplessis/styled-modern-css-reset#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiaanduplessis/styled-modern-css-reset.git"
+  },
+  "bugs": "https://github.com/tiaanduplessis/styled-modern-css-reset/issues",
+  "keywords": [
+    "css",
+    "reset",
+    "modern-css-reset",
+    "styled-components"
+  ],
+  "devDependencies": {
+    "@babel/cli": "7.12.1",
+    "@babel/core": "7.12.3",
+    "@babel/plugin-transform-modules-commonjs": "7.12.1",
+    "@babel/preset-env": "7.12.1",
+    "modern-css-reset": "^1.1.1",
+    "styled-components": "5.2.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "peerDependencies": {
+    "styled-components": ">=4.0.0"
+  }
+}
