@@ -1,7 +1,7 @@
 {
   "name": "styled-modern-reset",
   "description": "Modern reset for Styled Components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
