@@ -1,6 +1,6 @@
 {
-  "name": "styled-modern-css-reset",
-  "description": "modern-css-reset for Styled Components",
+  "name": "styled-modern-reset",
+  "description": "Modern reset for Styled Components",
   "version": "1.0.0",
   "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
   "license": "MIT",

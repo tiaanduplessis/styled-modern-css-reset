@@ -1,9 +1,9 @@
 
 # styled-modern-css-reset
-[![package version](https://img.shields.io/npm/v/styled-modern-css-reset.svg?style=flat-square)](https://npmjs.org/package/styled-modern-css-reset)
-[![package downloads](https://img.shields.io/npm/dm/styled-modern-css-reset.svg?style=flat-square)](https://npmjs.org/package/styled-modern-css-reset)
+[![package version](https://img.shields.io/npm/v/styled-modern-reset.svg?style=flat-square)](https://npmjs.org/package/styled-modern-reset)
+[![package downloads](https://img.shields.io/npm/dm/styled-modern-reset.svg?style=flat-square)](https://npmjs.org/package/styled-modern-reset)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![package license](https://img.shields.io/npm/l/styled-modern-css-reset.svg?style=flat-square)](https://npmjs.org/package/styled-modern-css-reset)
+[![package license](https://img.shields.io/npm/l/styled-modern-reset.svg?style=flat-square)](https://npmjs.org/package/styled-modern-reset)
 [![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 > [modern-css-reset](https://github.com/hankchizljaw/modern-css-reset) + Styled Components
@@ -23,15 +23,15 @@
 This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com).
 
 ```sh
-$ npm install styled-modern-css-reset
+$ npm install styled-modern-reset
 $ # OR
-$ yarn add styled-modern-css-reset
+$ yarn add styled-modern-reset
 ```
 
 ## Usage
 
 ```jsx
-import { ModernCSSReset } from 'styled-modern-css-reset'
+import { ModernCSSReset } from 'styled-modern-reset'
 
 const App = () => (
   <>
@@ -47,7 +47,7 @@ export default App
 
 ```javascript
 import { injectGlobal } from 'styled-components'
-import reset from 'styled-modern-css-reset'
+import reset from 'styled-modern-reset'
 
 injectGlobal`
   ${reset}
